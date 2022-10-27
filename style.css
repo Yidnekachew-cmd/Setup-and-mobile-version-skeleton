@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  font-display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 10px 30px;
+  color: rgb(50, 50, 154);
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: rgb(50, 50, 154);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 20px;
+  padding: 10px;
+  background-image: url("images/mobile@2x.svg");
+  background-repeat: no-repeat;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+.intro {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  font-weight: 800;
+}
+
+p {
+  display: block;
+  text-align: justify;
+  height: 250px;
+  width: 360px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  color: rgb(50, 50, 154);
+  padding-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  cursor: pointer;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  flex-basis: 1 1 100%;
+}

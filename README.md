@@ -11,9 +11,9 @@
 - Styleint
 - Technologies used
 
-## Authors
+## Author
 
-👤 Author
+👤 Yidnekachew Kassahun
 
 - GitHub: [Yidnekachew-cmd](https://github.com/Yidnekachew-cmd)
 - Twitter: [@Yidnekassahun](https://twitter.com/Yidnekassahun)
