@@ -7,11 +7,12 @@
 }
 
 body {
-  font-display: flex;
+  font-family: "poppins", sans-serif;
   font-size: 20px;
-  font-family: "poppins";
+  font-style: normal;
+  font-display: flex;
+  background-image: url("images/mobile@2x.svg");
 }
-
 
 .container {
   display: flex;
@@ -34,8 +35,6 @@ a {
   font-family: "Poppins", sans-serif;
   margin: 50px 20px;
   padding: 10px;
-  background-repeat: no-repeat;
-  background-image: url("images/mobile@2x.svg");
 }
 
 .material-icons {
@@ -50,10 +49,8 @@ a {
 }
 
 p {
-  display: flex;
+  display: block;
   text-align: justify;
-  height: 230px;
-  width: 360px;
   margin-top: 20px;
   padding-bottom: 20px;
 }
