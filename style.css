@@ -11,7 +11,6 @@ body {
   font-size: 20px;
   font-style: normal;
   font-display: flex;
-  background-image: url("images/mobile@2x.svg");
 }
 
 .container {
@@ -35,6 +34,8 @@ a {
   font-family: "Poppins", sans-serif;
   margin: 50px 20px;
   padding: 10px;
+  background-image: url("images/mobile@2x.svg");
+  background-repeat: no-repeat;
 }
 
 .material-icons {
@@ -51,6 +52,8 @@ a {
 p {
   display: block;
   text-align: justify;
+  height: 250px;
+  width: 360px;
   margin-top: 20px;
   padding-bottom: 20px;
 }
