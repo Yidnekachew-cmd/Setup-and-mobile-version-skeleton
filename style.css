@@ -859,3 +859,44 @@ li {
   width: 327px;
   height: 72px;
 }
+
+.last-section {
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0;
+  top: 5410px;
+  background: #6070ff;
+}
+
+.last-title {
+  position: absolute;
+  width: 801px;
+  height: 56px;
+  left: -213px;
+  top: 4734px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.last-paragraph {
+  position: absolute;
+  width: 327px;
+  height: 102px;
+  left: 24px;
+  top: 4802px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
