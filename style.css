@@ -865,16 +865,23 @@ li {
   width: 375px;
   height: 779px;
   left: 0;
-  top: 5410px;
+  top: 4685px;
   background: #6070ff;
+  border-top-left-radius: 115px;
 }
 
-.last-title {
+.last-section img {
+  width: 480px;
+  height: 715px;
+  left: 0;
+}
+
+.last-title h1 {
   position: absolute;
   width: 801px;
   height: 56px;
-  left: -213px;
-  top: 4734px;
+  left: 66px;
+  top: 100px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -886,12 +893,12 @@ li {
   color: #fff;
 }
 
-.last-paragraph {
+.last-paragraph p {
   position: absolute;
   width: 327px;
   height: 102px;
   left: 24px;
-  top: 4802px;
+  top: 170px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -899,4 +906,56 @@ li {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+}
+
+form {
+  position: absolute;
+  top: 330px;
+  left: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+form li {
+  padding: 10px 0;
+  width: 327px;
+}
+
+input,
+textarea {
+  width: 327px;
+  font-size: 16px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  height: 46px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 15px 16px;
+}
+
+textarea {
+  height: 172px;
+}
+
+.button button {
+  position: absolute;
+  left: 0;
+  padding-left: 16px;
+  width: 140px;
+  height: 48px;
+  font-size: 17px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  text-align: left;
+  cursor: pointer;
+}
+
+.button button:active {
+  background: lightblue;
+}
+
+.button button:hover {
+  background: lightskyblue;
 }
