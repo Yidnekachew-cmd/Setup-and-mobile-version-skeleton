@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .template {
   position: relative;
   width: 375px;
@@ -89,9 +85,18 @@ h3 {
   top: 92px;
 }
 
+.bullet {
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #7a869a;
+}
+
 @media screen and (max-width: 768px) {
   body {
-    overflow-x: none;
+    width: 375px;
+    margin: auto;
   }
 
   .container .nav {
@@ -125,6 +130,26 @@ h3 {
 
   .last-section img {
     background: url();
+  }
+
+  .space-1 {
+    position: absolute;
+    height: 1px;
+    left: 40px;
+    right: 0;
+    width: 300px;
+    top: 620px;
+    background: #dfe1e6;
+  }
+
+  .space-2 {
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    bottom: -32px;
+    background: #dfe1e6;
   }
 }
 
@@ -287,7 +312,7 @@ h3 {
   color: #344563;
 }
 
-.role {
+.frame .role {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -297,12 +322,12 @@ h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 16px;
   color: #7a869a;
 }
 
-.year {
+.frame .year {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -312,7 +337,7 @@ h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 16px;
   color: #7a869a;
 }
@@ -621,15 +646,15 @@ form button {
   height: 248.15px;
 }
 
-li {
-  list-style-type: none;
-}
-
 .language-list .javaScript {
   width: 303px;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
+}
+
+li {
+  list-style-type: none;
 }
 
 .javaScript-logo {
@@ -735,26 +760,6 @@ li {
   padding: 0;
 }
 
-.space-1 {
-  position: absolute;
-  height: 1px;
-  left: 30px;
-  right: 0;
-  width: 550px;
-  top: 85px;
-  background: #dfe1e6;
-}
-
-.space-2 {
-  position: absolute;
-  height: 1px;
-  left: 0;
-  right: 0;
-  width: 550px;
-  bottom: -32px;
-  background: #dfe1e6;
-}
-
 .skills-text {
   position: absolute;
   height: 24px;
@@ -829,7 +834,7 @@ form {
   left: 24px;
 }
 
-ul {
+form ul {
   list-style: none;
 }
 
@@ -865,6 +870,11 @@ textarea {
 /* desktop version */
 
 @media screen and (min-width: 768px) {
+  body {
+    width: 1440px;
+    overflow-x: hidden;
+  }
+
   .container i {
     display: none;
   }
@@ -1099,10 +1109,10 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 142px;
+    padding: 142px 0;
+    margin-left: -40px;
     gap: 142px;
     position: absolute;
-    width: 1440px;
     height: 2694px;
     left: 0;
     top: 917px;
@@ -1154,14 +1164,14 @@ textarea {
   .frame .client {
     width: 75px;
     height: 24px;
-    font-size: 15px;
-    margin-right: 20px;
+    font-size: 13px;
+    margin-right: 10px;
   }
 
   .frame .role {
     width: 424px;
     height: 24px;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .frame .year {
@@ -1336,6 +1346,26 @@ textarea {
     width: 414px;
     height: 144px;
     padding-left: 40px;
+  }
+
+  .space-1 {
+    position: absolute;
+    height: 1px;
+    left: 30px;
+    right: 0;
+    width: 550px;
+    top: 85px;
+    background: #dfe1e6;
+  }
+
+  .space-2 {
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 0;
+    width: 550px;
+    bottom: -32px;
+    background: #dfe1e6;
   }
 
   .language-list .javaScript {
