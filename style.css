@@ -458,6 +458,7 @@ form button {
   letter-spacing: 0.03em;
   height: 48px;
   width: 300px;
+  transition: all 1s ease-out;
 }
 
 .normal-button button:hover {
@@ -1053,6 +1054,26 @@ textarea {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
+    animation-duration: 3s;
+    animation-name: animation;
+  }
+
+  @keyframes animation {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .main-text-1 .content {
@@ -1323,11 +1344,15 @@ textarea {
     cursor: pointer;
     color: #6070ff;
     border: 1px solid #6070ff;
+    transition: all 1s ease-out;
   }
 
   .top button {
     position: relative;
     top: 45px;
+    color: #6070ff;
+    border: 1px solid #6070ff;
+    transition: all 0.5s ease-out;
   }
 
   .about-myself .list {
@@ -1472,9 +1497,11 @@ textarea {
 
   .form button:active {
     background: lightblue;
+    color: #def1e6;
   }
 
   .form button:hover {
     background: lightskyblue;
+    color: #def1e6;
   }
 }
