@@ -35,6 +35,10 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+## Link for online version
+
+https://yidnekachew-cmd.github.io/Setup-and-mobile-version-skeleton/
+
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
