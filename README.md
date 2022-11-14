@@ -4,7 +4,6 @@
 
 > Setup and mobile version skeleton project.
 
-
 ## Built With
 
 - Webhint
