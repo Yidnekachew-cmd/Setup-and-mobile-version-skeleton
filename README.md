@@ -35,7 +35,7 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## Link for online version
+## Online version link
 
 https://yidnekachew-cmd.github.io/Setup-and-mobile-version-skeleton/
 
