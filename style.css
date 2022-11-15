@@ -42,6 +42,14 @@
   left: 0;
   top: calc(50% - 40px / 2);
   color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  width: 100px;
+  height: 20px;
+  text-align: center;
 }
 
 .container i {
@@ -56,20 +64,6 @@
 
 a {
   text-decoration: none;
-}
-
-h3 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  width: 76px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
 }
 
 .main {
@@ -797,7 +791,7 @@ li {
   left: 0;
 }
 
-.last-title h1 {
+.last-title h3 {
   position: absolute;
   width: 801px;
   height: 56px;
@@ -914,20 +908,6 @@ textarea {
     height: 40px;
     left: 143px;
     top: calc(50% - 40px / 2);
-  }
-
-  .logo h3 {
-    width: 76px;
-    height: 20px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
   }
 
   .container .nav {
