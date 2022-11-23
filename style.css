@@ -63,7 +63,7 @@ a {
   display: none;
   cursor: pointer;
   position: absolute;
-  left: 330px;
+  left: 375px;
 }
 
 .bar {
@@ -130,13 +130,13 @@ a {
     padding-top: 48px;
     display: flex;
     justify-content: flex-start;
-    left: -200%;
-    margin-left: -145px;
+    left: -100%;
+    margin-left: -91px;
     top: 70px;
     gap: 0;
     height: 100vh;
     flex-direction: column;
-    width: 100%;
+    width: 375px;
     align-items: flex-start;
     background-color: #6070ff;
     mix-blend-mode: multiply;
