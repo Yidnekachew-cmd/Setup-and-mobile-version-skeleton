@@ -66,6 +66,9 @@ a {
   left: 330px;
 }
 
+
+
+
 .main {
   display: flex;
   flex-direction: column;
@@ -94,6 +97,11 @@ a {
     margin: auto;
   }
 
+  .hamburger {
+    display: block;
+    z-index: 4;
+    position: fixed;
+  }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
