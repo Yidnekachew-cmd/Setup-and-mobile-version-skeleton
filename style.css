@@ -73,9 +73,8 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #6070FF;
+  background-color: #6070ff;
 }
-
 
 .main {
   display: flex;
@@ -110,6 +109,7 @@ a {
     z-index: 4;
     position: fixed;
   }
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
