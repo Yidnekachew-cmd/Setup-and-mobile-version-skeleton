@@ -14,26 +14,28 @@
   <body>
     <section class="template">
       <section class="first-page">
-        <header class="container">
-          <strong><a href="#" class="logo">My Logo</a></strong>
-          <div>
-            <i class="material-icons">menu</i>
-          </div>
-          <nav class="nav">
-            <ul>
-              <li>
-                <a href="#">Portfolio</a>
+        <header>
+          <nav class="navbar">
+            <a href="#" class="nav-branding">My Logo</a>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#cards" class="nav-link">Portfolio</a>
               </li>
-              <li>
-                <a href="#">About</a>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
               </li>
-              <li>
-                <a href="#">Contact</a>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
               </li>
             </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
           </nav>
         </header>
-        <section class="main">
+        <section class="main" id="main">
           <div class="main-text-1">
             <h1 class="intro">
               I’m Yidnekachew <br />
@@ -80,7 +82,7 @@
           </ul>
         </section>
       </section>
-      <section class="works">
+      <section class="works" id="cards">
         <div class="card-works1">
           <div class="mobile">
             <div class="snap-shoot">
@@ -367,7 +369,7 @@
           </div>
         </div>
       </section>
-      <section class="about-myself">
+      <section class="about-myself" id="about">
         <div class="top">
           <h3 class="about-title">About Myself</h3>
           <p class="about-text">
@@ -489,7 +491,7 @@
           </ul>
         </div>
       </section>
-      <footer class="last-section">
+      <footer class="last-section" id="contact">
         <div class="mobile">
           <div>
             <img src="images/contact.svg" alt="background image" />
@@ -551,5 +553,6 @@
         </form>
       </footer>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
