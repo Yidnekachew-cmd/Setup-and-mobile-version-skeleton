@@ -109,6 +109,7 @@ a {
     z-index: 4;
     position: fixed;
   }
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
