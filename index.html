@@ -15,7 +15,7 @@
     <section class="template">
       <section class="first-page">
         <header>
-          <nav class="navbar">
+          <nav class="navbar" id="nav">
             <a href="#" class="nav-branding">My Logo</a>
             <ul class="nav-menu">
               <li class="nav-item">
@@ -82,7 +82,7 @@
           </ul>
         </section>
       </section>
-      <section class="works" id="cards">
+      <section class="works" id="card-works">
         <div class="card-works1">
           <div class="mobile">
             <div class="snap-shoot">
@@ -90,7 +90,7 @@
             </div>
             <div class="left-block">
               <div class="text">
-                <h2 class="title">Tonic</h2>
+                <h2 class="title" aria-live="title">Tonic</h2>
                 <ul class="frame">
                   <li class="client">CANOPY</li>
                   <li class="role"><span class="bullet"></span>Back End Dev</li>
@@ -98,7 +98,7 @@
                 </ul>
               </div>
               <div>
-                <p class="main-text1">
+                <p class="main-text1" id="main-text1">
                   A daily selection of privately personalized reads; no accounts
                   or sign-ups required.
                 </p>
@@ -113,7 +113,7 @@
 
               <div class="action">
                 <div class="normal-button">
-                  <button type="button">See Project</button>
+                  <button type="button" id="view1">See Project</button>
                 </div>
               </div>
             </div>
@@ -369,6 +369,7 @@
           </div>
         </div>
       </section>
+
       <section class="about-myself" id="about">
         <div class="top">
           <h3 class="about-title">About Myself</h3>
@@ -457,13 +458,15 @@
             <li class="frame-works">
               <div class="frame-works-text">
                 <h3>Frameworks</h3>
-                <div class="side-arrow">
+                <hr />
+                <div class="side-arrow1">
                   <img
-                    class="side-arrow"
+                    class="side-arrow1"
                     src="snap-shoot/side-arrow.svg"
                     alt="side arrow"
                   />
                 </div>
+
                 <div class="mobile">
                   <div class="space-1"></div>
                 </div>
@@ -478,9 +481,9 @@
             <li class="skills">
               <div class="skills-text">
                 <h3>Skills</h3>
-                <div class="side-arrow">
+                <div class="side-arrow2">
                   <img
-                    class="side-arrow"
+                    class="side-arrow2"
                     src="snap-shoot/side-arrow.svg"
                     alt="arrow"
                   />
@@ -511,7 +514,7 @@
         <div class="last-paragraph">
           <p>
             If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
+            feature that you need built or a project that needs coding.I’d love
             to help with it
           </p>
         </div>
@@ -522,6 +525,7 @@
               <input
                 type="text"
                 name="user_name"
+                id="name"
                 placeholder="user_name"
                 maxlength="30"
                 required
@@ -532,8 +536,8 @@
               <input
                 type="email"
                 name="user_email"
+                id="email"
                 placeholder="name@gmail.com"
-                required
               />
             </li>
             <li>
@@ -546,13 +550,47 @@
                 required
               ></textarea>
             </li>
+            <p id="message" class="submit"></p>
             <li class="button">
-              <button type="submit">Get in touch</button>
+              <button
+                class="button"
+                type="submit"
+                id="form-btn"
+                onclick="emailValidator()"
+              >
+                Get in touch
+              </button>
             </li>
           </ul>
         </form>
       </footer>
+      <!-- <section class="popup" id="popup" onclick="close()">
+        <div class="popup-container">
+          <h2 id="popup-title">Tonic</h2>
+          <div class="close-btn" id="close-btn" onclick="closeModal()">&times;</div>
+          <ul class="skill" //info-model>
+            <li class="campany" //title-name>Canopy</lic>
+            <li class="position" //job-title><span>.</span>Back End Dev</li>
+            <li class="year" //year><span>.</span>2015</li>
+          </ul>
+          <div class="pop-img">
+          <img src="./snap-shoot/image1.svg" alt="popup-img" id="popup-img">
+          </div>
+          <p class="lorem-text" id="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas tenetur ea, atque nostrum tempora dolor nihil eligendi quasi culpa placeat maxime repellendus ducimus quibusdam iure architecto eveniet dolores fuga magnam?</p>
+          <ul class="language"//modal-languages>
+            <li class="html" id="tag1">html</lic>
+            <li class="css" id="tag2">css</li>
+            <li class="javaScript" id="tag3">javaScript</li>
+          </ul>
+          <div class="see-btn">
+            <button type="button" class="live-btn" id="live">See live</button>
+            <button type="button" class="Source-btn" id="source">See source</button>
+          </div>
+        </div>
+       </section> -->
     </section>
-    <script src="script.js"></script>
+    <script src="./JavaScript/form.js"></script>
+    <script src="./JavaScript/script.js"></script>
+    <script src="./JavaScript/"></script>
   </body>
 </html>
