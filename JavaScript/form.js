@@ -10,8 +10,7 @@ function emailValidator() {
       document.getElementById('message').style.fontSize = '24px';
     } else {
       document.getElementById('message').innerHTML = EMAIL_INVALID;
-      document.getElementById('message').style.color = 'red';
-      document.getElementById('message').style.fontSize = '24px';
+      
       event.preventDefault();
     }
   };
