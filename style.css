@@ -1362,6 +1362,73 @@ textarea {
     background: lightskyblue;
     color: #def1e6;
   }
+
+  /* popup media query */
+
+  .popup {
+    width: 100%;
+    height: auto;
+  }
+
+  .popup-container {
+    overflow-y: auto;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .pop-img {
+    width: 100%;
+  }
+
+  .pop-img img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .mod-desc {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+  }
+
+  .close-btn2 i {
+    position: absolute;
+    top: 0;
+    left: 450px;
+  }
+
+  .popup-header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .lorem-text {
+    width: 150% !important;
+    padding-right: 24px;
+    padding-left: 15px;
+  }
+
+  .see-btn {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-left: 24px;
+  }
+
+  .btn-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .live-btn {
+    padding-right: 24px;
+  }
 }
 
 /* popup mobile */
@@ -1376,7 +1443,7 @@ textarea {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  padding: 114px 24px;
+  padding: 24px 0;
   color: #344563;
   background-color: rgba(57, 99, 165, 0.36);
   backdrop-filter: blur(5px);
@@ -1387,13 +1454,18 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
-  gap: 12px;
-  max-width: 70%;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 100%;
   margin: 0 auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .popup-container h2 {
@@ -1404,25 +1476,17 @@ textarea {
   line-height: 44px;
   color: #172b4d;
   width: 100%;
-  max-height: 36px;
-  margin-top: 1rem;
-}
-
-.close-btn {
-  position: relative;
-  font-size: 2rem;
-  font-weight: 700;
-  right: -150px;
-  top: -45px;
-  cursor: pointer;
+  height: 36px;
+  margin-top: 24px;
+  margin-left: 65px;
 }
 
 .close-btn2 {
-  position: relative;
+  position: absolute;
   font-size: 2rem;
   font-weight: 700;
-  right: -430px;
-  top: -45px;
+  top: 28px;
+  left: 340px;
   cursor: pointer;
 }
 
@@ -1430,12 +1494,11 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 0;
+  padding-bottom: 5px;
   gap: 12px;
   width: 100%;
-  position: relative;
-  top: -50px;
-  margin-left: 24px;
+  margin-top: 10px;
+  margin-left: 70px;
 }
 
 .skill .campany {
@@ -1456,8 +1519,8 @@ textarea {
 .skill span {
   font-size: 25px;
   color: #344563;
-  position: relative;
-  top: -6px;
+  position: absolute;
+  top: 75px;
   margin-left: -8px;
 }
 
@@ -1488,12 +1551,21 @@ textarea {
 }
 
 .pop-img img {
-  width: 80vh;
-  margin-top: -50px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.mod-desc {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 0;
 }
 
 .lorem-text {
   font-family: "Poppins", sans-serif;
+  display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1501,10 +1573,6 @@ textarea {
   width: 100%;
   color: #344563;
   text-align: justify;
-  padding: 5px 20%;
-  margin: 0 24px;
-  position: relative;
-  top: -35px;
 }
 
 .language {
@@ -1512,8 +1580,6 @@ textarea {
   flex-direction: row;
   align-items: flex-start;
   padding-top: 20px;
-  position: relative;
-  top: -45px;
   gap: 8px;
   width: 100%;
   height: 24px;
@@ -1547,11 +1613,6 @@ textarea {
   font-weight: 500;
 }
 
-.mod-desc {
-  display: flex;
-  justify-content: space-around;
-}
-
 .see-btn {
   display: flex;
   flex-direction: row;
@@ -1561,7 +1622,8 @@ textarea {
   font-size: 16px;
   width: 100%;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .see-btn .live-btn {
@@ -1573,7 +1635,7 @@ textarea {
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  background-color: white;
+  background-color: #6070ff;
 }
 
 .see-btn .Source-btn {
@@ -1585,7 +1647,13 @@ textarea {
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  background-color: white;
+  background-color: #6070ff;
+}
+
+.btn-img {
+  position: relative;
+  top: 4px;
+  left: 6px;
 }
 
 /* End of popup */
